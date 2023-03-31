@@ -311,7 +311,9 @@ h1{
   border-color: #fff;
 }
 
-
+:where(h1){
+  font-family: 'Times New Roman', Times, serif;
+}
 
 
 .deals{
@@ -362,35 +364,100 @@ h1{
 }
 
 
+.features {
+  background-color: #5f316bcd;
+  padding: 2.5rem 0.5rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.features__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.icon-wrapper {
+  width: 3rem;
+  height: 3rem;
+  color: #03a9f4;
+  background-color: #282020;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+.footer{
+  margin-top: 1rem;
+  padding-bottom: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.footer .box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  align-items: flex-start;
+}
+.box-1{
+  flex: 2 1 auto;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.0rem;
+  padding:1rem 0;
+  color:rgb(174, 102, 241);
+}
+.box-1>p{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
 
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.5rem;
+  padding:1rem 0;
+  color: white;
+  text-decoration: none;
+}
 
+.footer .box-container .box a i{
+  padding-right: .5rem;
+  color:#5a0286;
+}
 
+.footer .box-container .box:hover a{
+  color: #4d8bd6;
+  /* transform: translateY(1rem); */
+}
 
+.footer .credit{
+  color:#03a9f4;
+  text-align: center;
+  padding:1rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer .credit span{
+  color:#5a0286;
+}
 
 
 @media (max-width: 1045px) {
