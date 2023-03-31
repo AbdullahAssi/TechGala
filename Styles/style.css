@@ -1,0 +1,217 @@
+:root{
+  --clr_dark:black;
+  --clr-slate: white;
+  --clr-gradient:  linear-gradient(90deg,  #730644, #5a0286);
+}
+*{
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: var(--clr_dark);
+  color: var(--clr-slate) ;
+}
+
+body::-webkit-scrollbar {
+  width: .7em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px rgb(0, 59, 147);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #9f0356;
+  outline: 1px solid rgb(15, 3, 3);
+  border-radius: 7px 0px;
+}
+
+img,video,picture,canvas,svg{
+  display: block;
+  max-width: 100%;
+}
+.hero{
+  min-height: 100vh;
+  background-image:linear-gradient(rgba(137, 89, 89, 0.185),#000000c3) ,url(../Styles/images/audio-g20e165a37_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: grid;
+  align-content: center;
+  place-items: center;
+}
+h1{
+  font-size: 3.5rem;
+}
+.hero__details{
+  color: var(--clr-slate);
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn__hero{
+  margin-top: 10px;
+  border-radius: 1px solid black;
+  background: transparent;
+  padding: .8rem 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
+  grid-auto-rows: 20rem;
+  grid-gap: 20px; 
+  padding-left: 25px;
+  padding-right: 25px;
+  }
+  .catagories_contant{
+    margin-top: -10px;
+    width:100% ;
+    height: 40vh;
+    color: black;
+    font-size: 25px;
+    box-sizing: border-box;
+  }
+  .c1{
+    background-image: url(images/pink-gde85dbe7a_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .c2{
+    background-image: url(images/hd2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .c3{
+  background-image: url(images/sp.PNG);
+  background-size: cover;
+  }
+  .btn_catagories{
+    margin-top: 30%;
+    text-decoration: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    color: #fff;
+    width: 7em;
+    height: 3em;
+    line-height: 2.5em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+.catagories_contant>h3{
+  margin: 10px 20px 0px 10px;
+}
+
+.products{
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.products>h1{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.line{
+  height: 1px;
+  background-color: white;
+  margin-top: -78px;
+  width: 35%;
+}
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  column-gap: .8rem;
+  grid-auto-rows: 21rem ;
+  row-gap: 20px;
+  width: 90%;
+  padding-left: 12%;
+}
+
+.product{
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  background: linear-gradient(90deg,  #730644, #5a0286);
+}
+
+
+.product h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product h3 {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #a27d7d;
+}
+
+.product_btn{
+  padding: 0.6em 1.6em;
+  margin-top: 10px;
+  border: 2px solid #020808;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: .3s;
+  z-index: 1;
+  font-family: inherit;
+  color: var(--clr-slate);
+  cursor: pointer;
+}
+.product_btn::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--clr_dark);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+}
+.product_btn:hover::before{
+  width: 105%;
+}
+.product_btn:hover{
+  color: var(--clr-gradient);
+}
+.equipments{
+  margin: 10% 10%;
+}
+
+.equipment_2{
+  height: 50vh;
+  background-image: url(images/headphonebg.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  background-position: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+
