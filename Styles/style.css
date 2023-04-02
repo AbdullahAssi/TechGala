@@ -137,6 +137,7 @@ img,video,picture,canvas,svg{
   display: grid;
   align-content: center;
   place-items: center;
+  padding:10rem;
 }
 
 h1>span{
@@ -530,6 +531,7 @@ h1{
 .footer{
   margin-top: 1rem;
   padding-bottom: 3rem;
+  padding: 3rem;
   margin-left: 5rem;
   margin-right: 5rem;
 }
@@ -547,7 +549,7 @@ h1{
 }
 
 .footer .box-container .box h3{
-  font-size: 2.0rem;
+  font-size: 2rem;
   padding:1rem 0;
   color:rgb(174, 102, 241);
 }
@@ -559,7 +561,7 @@ h1{
 
 .footer .box-container .box a{
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding:1rem 0;
   color: white;
   text-decoration: none;
@@ -570,9 +572,10 @@ h1{
   color:#5a0286;
 }
 
-.footer .box-container .box:hover a{
+.footer .box-container .box a:hover i{
   color: #4d8bd6;
-  /* transform: translateY(1rem); */
+  padding-right: 1rem;
+  /* transform: translateX(1rem); */
 }
 
 .footer .credit{
@@ -758,6 +761,10 @@ label {
   .formp{
     margin-left: 9rem;
   }
+  .hero{
+    padding: 4rem;
+    margin-top: 10px;
+  }
 }
 @media  (max-width: 580px) { 
   .img{
@@ -765,5 +772,25 @@ label {
   }
   .formp{
     margin-left: 5rem;
+  }
+  .hero>h1>span{
+    font-size: 3.5rem;
+  }
+  .hero>h1{
+    font-size:2.5rem;
+  }
+  .card-grid{
+    justify-content: center;
+    place-items: center;
+  }
+  .hero{
+    padding: 2rem;
+  }
+  .footer{
+    padding: 0rem;
+  }
+  .credit{
+    font-size: 1rem;
+    padding: .4rem;
   }
 }
