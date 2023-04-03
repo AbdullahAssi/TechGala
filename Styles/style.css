@@ -48,17 +48,16 @@ img,video,picture,canvas,svg{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding:1.2rem 9%;
+  padding:.9rem 9%;
 }
 
 .header .logonav{
-  font-size: 2.5rem;
   margin-bottom: -40px;
   margin-top: -30px;
 }
 
 .header .navbar a{
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: var(--light-color);
   text-decoration: none;
   margin-left: 2rem;
@@ -66,6 +65,7 @@ img,video,picture,canvas,svg{
 
 .header .navbar a:hover{
   color:var(--main-color);
+  text-decoration:overline black;
 }
 
 #menu-btn{
@@ -141,7 +141,7 @@ img,video,picture,canvas,svg{
 }
 
 h1>span{
-  color: #5798e7;
+  color: #457dc2db;
   font-size: 4.5rem;
   font-weight: 400;
   font-family: 'Abril Fatface', cursive;
@@ -247,7 +247,7 @@ h1{
   height: 1px;
   background-color: white;
   margin-top: -78px;
-  width: 35%;
+  width: 45%;
 }
 
 
@@ -365,6 +365,13 @@ h1{
   height: 100%;
   place-items: center;
   background: #000000;
+}
+.linet{
+  width: 15%;
+  border-radius: 2px;
+  padding: 2px;
+  background-color :rgb(100, 61, 136);
+  margin: 10px 0px;
 }
 
 
@@ -767,6 +774,9 @@ label {
   }
 }
 @media  (max-width: 580px) { 
+  .header{
+    padding: .5rem 10%;
+  }
   .img{
     margin-left: -7rem;
   }
