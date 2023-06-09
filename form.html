@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="Styles/style.css">
     <script src="https://kit.fontawesome.com/f5751d26af.js" crossorigin="anonymous"></script>
 
-    <title>E Commerce Website</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=DM+Serif+Display&family=Orbitron&family=Philosopher:ital,wght@0,700;1,700&family=Quattrocento+Sans:wght@700&family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
+    <title>Tech Gala</title>
   </head>
   <body>
 
@@ -32,32 +36,74 @@
 
 <section>
     <div class="main">  
-        <div class="img">
+        <!-- <div class="img-form">
             <img src="Styles/images/GALA.png" width="500" height="500" alt="">
-        </div>	
-        <div class="formp">
-		<input type="checkbox" id="chk" aria-hidden="true"  >
+        </div> -->
+        
+        <div class="wrapper">
+          <span class="close-icon"><i class="fa-solid fa-xmark"></i></span>
+          <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                  <input type="email" required>
+                  <label for="#">Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                  <input type="password" required>
+                  <label for="#">Password</label>
+              </div>
+              <div class="remember">
+                <label ><input type="checkbox">Remember Me</label>
+                <a href="#">Forgot Password</a>
+              </div>
+              <button class="btn-form" type="submit">Login</button>
 
-			<div class="login">
-				<form class="form">
-					<label for="chk" aria-hidden="true">Log in</label>
-					<input class="input" type="email" name="email" placeholder="Email" required="">
-					<input class="input" type="password" name="pswd" placeholder="Password" required="">
-					<button>Log in</button>
-				</form>
-			</div>
+              <div class="login-register">
+                <p>Don't Have an account? <a href="#" class="register-link">Signup Now</a></p>
+              </div>
+            </form>
+          </div>
 
-      <div class="register">
-				<form class="form">
-					<label for="chk" aria-hidden="true">Register</label>
-					<input class="input" type="text" name="txt" placeholder="Username" required="">
-					<input class="input" type="email" name="email" placeholder="Email" required="">
-					<input class="input" type="password" name="pswd" placeholder="Password" required="">
-					<button>Register</button>
-				</form>
-			</div>
-	</div>
-</div>
+          <!-- <div class="form-box Register">
+            <h2>Registertion</h2>
+            <form action="#">
+
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                  <input type="text" required>
+                  <label for="#">Username</label>
+              </div>
+
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                  <input type="email" required>
+                  <label for="#">Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                  <input type="password" required>
+                  <label for="#">Password</label>
+              </div>
+              <div class="remember">
+                <label ><input type="checkbox">I agree to the terms and conditions</label>
+      
+              </div>
+              <button class="btn-form" type="submit">Register</button>
+
+              <div class="login-register">
+                <p>Already Have an account? <a href="#" class="Login-link">Login Now</a></p>
+              </div>
+            </form>
+          </div> -->
+
+
+
+
+        </div>
+    </div>
 </section>
 
 
@@ -115,16 +161,6 @@
         <a href="#"> <i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Fri</a>
     </div>
 
-    <div class="box">
-        <h3>Our Branches</h3>
-        <a href="#"> <i class="fas fa-map-marker-alt"></i> Pakistan </a>
-        <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
-        <a href="#"> <i class="fas fa-map-marker-alt"></i> Romania </a>
-        <a href="#"> <i class="fas fa-map-marker-alt"></i> UAE</a>
-        <a href="#"> <i class="fas fa-map-marker-alt"></i> Russia </a>
-
-    </div>
-    
 
     <div class="box">
         <h3>Our Services</h3>

@@ -15,3 +15,14 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 } 
 
+// const wrapper = document.querySelector('.wrapper');
+// const loginlink = document.querySelector('.Login-link');
+// const registerlink = document.querySelector('.register-link');
+
+
+//     registerlink.addEventListener('click', () => {
+//         wrapper.classList.add('active');
+//     });
+//     loginlink.addEventListener('click', () => {
+//         wrapper.classList.remove('active');
+//     });
