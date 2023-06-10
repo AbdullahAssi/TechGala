@@ -600,13 +600,13 @@ h1{
 
 
 @media (max-width: 1045px) {
-  .wrapper .box{
+  .wrapper-testimonials .box{
     width: calc(50% - 10px);
     margin: 10px 0;
   }
 }
 @media (max-width: 702px) {
-  .wrapper .box{
+  .wrapper-testimonials .box{
     width: 100%;
   }
 }
